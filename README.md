@@ -5,7 +5,6 @@ A complete exploratory analysis of Kaggle's annual Data Science & Machine Learni
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Table of Contents
 
@@ -17,8 +16,6 @@ A complete exploratory analysis of Kaggle's annual Data Science & Machine Learni
 - [Tools of the Trade](#tools-of-the-trade)
 - [Machine Learning & BI Tools](#machine-learning--bi-tools)
 - [Conclusion](#conclusion)
-- [Repository Structure](#repository-structure)
-- [How to Run](#how-to-run)
 
 ## Overview
 
@@ -137,15 +134,6 @@ Despite the constant hype around deep learning, traditional machine learning too
 One caveat: students make up a large share of respondents, and their tool choices and experience levels can differ from working professionals, which may pull some results (like coding experience and tool familiarity) toward what a learner would choose. Even so, the overall pattern is clear: data science is a fast-growing, global, increasingly standardized field, with Python, Scikit-Learn, and Jupyter-style notebooks at its core.
 
 
-```
-
-## How to Run
-
-```bash
-git clone https://github.com/<your-username>/kaggle-survey-analysis-2017-2021.git
-cd kaggle-survey-analysis-2017-2021
-pip install pandas numpy matplotlib seaborn jupyter
-jupyter notebook notebook/kaggle-survey-analysis-2017-2021.ipynb
 ```
 
 You'll need the source CSV (`kaggle_survey_2017_2021.csv`) from the [Kaggle dataset page](https://www.kaggle.com/datasets/andradaolteanu/kaggle-data-science-survey-20172021) placed in the path referenced at the top of the notebook.
